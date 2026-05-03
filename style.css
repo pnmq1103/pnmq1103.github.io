@@ -1,24 +1,4 @@
-/* body {background-color: #F8F4E7; color: #552800;} */
-/* a.link {color:#0000A0;} */
-/* a.visited {color: #A000A0;} */
-/* a.active {color: #00A000;} */
-/* img.thumb {height: 100px; width: 100px;} */
-/* img.big {height: 900px; width: 900px;} */
-/* img.xref {vertical-align: middle; padding-left:6px; padding-right:10px;} */
-/**/
-/* .rating { */
-/*   color: #B8860B; */
-/*   font-weight: bold; */
-/*   margin-left: 20px; */
-/* } */
-/**/
-/* .review { */
-/*   margin-top: 5px; */
-/*   margin-bottom: 15px; */
-/*   padding-left: 20px; */
-/* } */
-
-/* https://github.com/protesilaos/modus-themes/tree/main */
+/* https://github.com/protesilaos/modus-themes/ */
 
 :root {
   --bg-main: #000000;
@@ -124,25 +104,15 @@
   --mark-select-fg: var(--cyan);
 }
 
-/* Base HTML Document */
 body {
   background-color: var(--bg-main);
   color: var(--fg-main);
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 20px;
 }
 
-/* Typography Headings */
-h1 { color: var(--cyan-cooler); }
-h2 { color: var(--fg-main); }
-h3 { color: var(--yellow-faint); }
-h4 { color: var(--blue-faint); }
-h5 { color: var(--magenta); }
-h6 { color: var(--green-faint); }
-
-/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -160,13 +130,11 @@ a:hover, a:focus, a:active {
   background-color: var(--bg-hover);
 }
 
-/* Text Selection (Region) */
 ::selection {
   background-color: var(--bg-region);
   color: var(--fg-region);
 }
 
-/* Custom Elements from your original CSS */
 .rating {
   color: var(--yellow-warmer);
   font-weight: bold;
@@ -180,112 +148,24 @@ a:hover, a:focus, a:active {
   color: var(--fg-dim); /* Dim text for reviews */
 }
 
-/* Images */
-img.thumb { height: 100px; width: 100px; }
-img.big { height: 900px; width: 900px; }
-img.xref { vertical-align: middle; padding-left: 6px; padding-right: 10px; }
+/* old theme */
 
-/* Inline Code & Code Blocks (Prose) */
-code, kbd, samp, pre {
-  font-family: monospace;
-  background-color: var(--code-bg);
-  color: var(--code-fg);
-  border-radius: 4px;
-}
-
-code {
-  padding: 2px 4px;
-}
-
-pre {
-  padding: 15px;
-  border-left: 4px solid var(--border);
-  overflow-x: auto;
-}
-
-/* Blockquotes */
-blockquote {
-  border-left: 4px solid var(--border);
-  background-color: var(--bg-dim);
-  margin: 0;
-  padding: 10px 20px;
-  color: var(--fg-dim);
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-th, td {
-  border: 1px solid var(--border);
-  padding: 10px;
-  text-align: left;
-}
-
-th {
-  background-color: var(--bg-active);
-  color: var(--fg-main);
-}
-
-tr:nth-child(even) {
-  background-color: var(--bg-dim);
-}
-
-tr:hover {
-  background-color: var(--bg-hl-line);
-}
-
-/* Buttons */
-button, .button {
-  background-color: var(--bg-inactive);
-  color: var(--fg-dim);
-  border: 1px solid var(--border);
-  padding: 8px 16px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-button:hover, button:active, .button:hover {
-  background-color: var(--bg-active);
-  color: var(--fg-main);
-  border-color: var(--fg-dim);
-}
-
-/* Form Inputs */
-input, textarea, select {
-  background-color: var(--bg-dim);
-  color: var(--fg-main);
-  border: 1px solid var(--border);
-  padding: 8px;
-}
-
-input:focus, textarea:focus {
-  outline: none;
-  border-color: var(--blue-cooler);
-  background-color: var(--bg-hl-line);
-}
-
-/* Alerts / Callouts */
-.alert-error {
-  background-color: var(--bg-red-nuanced);
-  color: var(--text-error);
-  border-left: 4px solid var(--red-intense);
-  padding: 10px;
-}
-
-.alert-warning {
-  background-color: var(--bg-yellow-nuanced);
-  color: var(--text-warning);
-  border-left: 4px solid var(--yellow);
-  padding: 10px;
-}
-
-.alert-info {
-  background-color: var(--bg-cyan-nuanced);
-  color: var(--text-info);
-  border-left: 4px solid var(--cyan);
-  padding: 10px;
-}
+/* body {background-color: #F8F4E7; color: #552800;} */
+/* a.link {color:#0000A0;} */
+/* a.visited {color: #A000A0;} */
+/* a.active {color: #00A000;} */
+/* img.thumb {height: 100px; width: 100px;} */
+/* img.big {height: 900px; width: 900px;} */
+/* img.xref {vertical-align: middle; padding-left:6px; padding-right:10px;} */
+/**/
+/* .rating { */
+/*   color: #B8860B; */
+/*   font-weight: bold; */
+/*   margin-left: 20px; */
+/* } */
+/**/
+/* .review { */
+/*   margin-top: 5px; */
+/*   margin-bottom: 15px; */
+/*   padding-left: 20px; */
+/* } */
