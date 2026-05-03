@@ -1,9 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music</title>
     <link rel="stylesheet" type="text/css" href="../style.css" />
+    <style>
+      .cover {
+        width: 256px;
+        height: 256px;
+        object-fit: cover;
+      }
+      .cover-width {
+        width: auto;
+        height: 256px;
+        max-width: 1024px;
+      }
+      .cover-height {
+        width: 256px;
+        height: auto;
+        max-height: 1024px;
+      }
+      .link {
+        display: block;
+      }
+      .link a {
+        margin-right: 15px;
+      }
+      .link a:last-child {
+        margin-right: 0;
+      }
+    </style>
   </head>
 
   <body id="top">
@@ -25,10 +52,12 @@
               <li><a href="#april4">26-02</a></li>
             </ol>
           </li>
-          <li><a href="#may">May</a></li>
-          <ol>
-            <li><a href="may1">03-09</a></li>
-          </ol>
+          <li>
+            <a href="#may">May</a>
+            <ol>
+              <li><a href="#may1">03-09</a></li>
+            </ol>
+          </li>
           <li><a href="#archive">Archive</a></li>
         </ul>
       </nav>
@@ -44,10 +73,10 @@
         <img
           src="https://coverartarchive.org/release-group/f1f6c7e2-7848-4554-b36c-2190e1d6bfb0/front"
           alt="Exmilitary album cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/playlist?list=PL228FAD202E1D8335"
             >Youtube</a
           >
@@ -72,10 +101,10 @@
         <img
           src="https://coverartarchive.org/release-group/e98ebd9f-647a-46d2-acdc-6830ac6b55c5/front"
           alt="hitohira-en album cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://open.spotify.com/album/0PRsuNQ7Pvcvqrwdv95zS5?si=JOY4dUf-Rou090RTOpDZeg"
             >Spotify</a
@@ -109,10 +138,10 @@
         <img
           src="https://coverartarchive.org/release-group/6bd70eee-bd46-4738-851a-f50c19d8d6db/front"
           alt="Mr. Morale & The Big Steppers album cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9.67/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_mdeH-JtTLsVGDionNbEvJGtQw--uolZy8"
             >Youtube</a
@@ -143,10 +172,10 @@
         <img
           src="https://i.scdn.co/image/ab67616d0000b273189522376757bcd5784cf5a9"
           alt="Mien dat con lai album cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://youtube.com/playlist?list=PL_wUXKguyuxbm9ADTLPPkS52Ki6uXXaAp&si=q95CUDMANSJF9_r1"
             >Youtube</a
@@ -174,10 +203,10 @@
         <img
           src="https://f4.bcbits.com/img/a4176824914_10.jpg"
           alt="MAN BITES DOG"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 6/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=yRHVbxsX4TQ">Youtube</a>
         </div>
         <p class="review">
@@ -203,10 +232,10 @@
         <img
           src="https://archive.org/download/mbid-df594188-7c6b-4449-bcc2-7b487627c5c0/mbid-df594188-7c6b-4449-bcc2-7b487627c5c0-38239874108_thumb500.jpg"
           alt="OMA first album cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.25/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/@oma_band">Youtube</a>
         </div>
         <p class="review">
@@ -216,29 +245,26 @@
           DOOM covers are the best; their luv[sic] concert is a must-hear for
           Nujabes fans.
         </p>
-        <p>
-          <b
-            >Notable tracks:
-            <ul>
-              <li>
-                <a href="https://www.youtube.com/watch?v=FGOEMvymSIE"
-                  >Nujabes feat. Shing02 | Luv(sic) Hexalogy</a
-                >
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=f6jBSMP7uc8"
-                  >The Nujabes Mix (Instrumental Lo-fi HipHop)</a
-                >(the transition from The Final View to Sanctuary Ship must be
-                studied)
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=sossVHoi2R4"
-                  >MF DOOM Instrumentals (Full Live Gig, 2023)</a
-                >
-              </li>
-            </ul>
-          </b>
-        </p>
+        <p><b>Notable tracks:</b></p>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=FGOEMvymSIE"
+              >OMA && Nujabes && Shing02 - Luv(sic) Hexalogy (2024)</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=f6jBSMP7uc8"
+              >OMA - The Nujabes Mix (2025)</a
+            >
+            (the transition from The Final View to Sanctuary Ship must be
+            studied)
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=sossVHoi2R4"
+              >OMA - MF DOOM Instrumentals (2023)</a
+            >
+          </li>
+        </ul>
       </details>
 
       <p>Songs</p>
@@ -252,10 +278,10 @@
         <img
           src="https://f4.bcbits.com/img/a4098981640_1x1_700.avif"
           alt="ai that long yeu ai cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=Fv3OzxeGdVw">Youtube</a>
         </div>
         <p class="review">
@@ -271,10 +297,10 @@
         <img
           src="https://coverartarchive.org/release-group/e98ebd9f-647a-46d2-acdc-6830ac6b55c5/front"
           alt="hitohira-en cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=FD5hmkcXLnI">Youtube</a>
           <a
             href="https://open.spotify.com/track/3etDIbR1ESPXimgGKFdu9I?si=d35faeda627745a2"
@@ -293,7 +319,7 @@
           <strong>Lạc: Cowboy Bebop - inspired lofi hip-hop</strong>
         </summary>
         <strong>Consists of 3 honourable mentions:</strong>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <ol>
             <li>
               <a href="https://www.youtube.com/watch?v=4u-ejGIxPqo"
@@ -315,7 +341,7 @@
         <img
           src="https://wallpapers.com/images/high/cowboy-bebop-sunset-reflections-d8z9r6ys9n7teuuf.webp"
           alt="cool image"
-          style="width: 256px"
+          class="cover-height"
         />
         <span class="rating"><strong>Rating:</strong> 9.25/10</span>
         <p class="review">
@@ -332,10 +358,10 @@
         <img
           src="https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           alt="Stateside song cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.75/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=lIxQe1R5hs0">Youtube</a>
           <a
             href="https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt?si=3bc7e5f7fa024f15"
@@ -356,10 +382,10 @@
         <img
           src="https://i.scdn.co/image/ab67616d0000b2730771b564830e3dedb2d31358"
           alt="Đá tan song cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=c6H2s5LagAI">Youtube</a>
           <a
             href="https://open.spotify.com/track/6Wi18yv3aoO0ZF4uulguof?si=37c28033fce643eb"
@@ -381,10 +407,10 @@
         <img
           src="https://coverartarchive.org/release-group/e895abe3-5ce0-472f-ab72-95222943cb9c/front"
           alt="sewed shut cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.25/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=j9Vu5fdSo0s">Youtube</a>
           <a
             href="https://open.spotify.com/track/5WxzMT69j6YUmNEKNxbt2n?si=836ced35428e44e9"
@@ -405,10 +431,10 @@
         <img
           src="https://coverartarchive.org/release-group/fe0439fa-d2c2-4072-8f2c-0f75ffd78cdb/front"
           alt="boku no haru cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.75/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=iShyMFzVrmY">Youtube</a>
         </div>
         <p class="review">
@@ -428,10 +454,10 @@
         <img
           src="https://coverartarchive.org/release/10b5bf6b-77fe-477d-8126-d98d6d08bdfb/21286036503.jpg"
           alt="(you're) the devil in disguise cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 6.66/7</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=emjLXdsj6xA">Youtube</a>
         </div>
         <div class="review">
@@ -457,10 +483,10 @@
         <img
           src="https://coverartarchive.org/release-group/670e2d9d-a2cc-425a-9c83-a623f141889b/front"
           alt="rebirth and karma cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=ylXsgelrtTE">Youtube</a>
         </div>
         <p class="review">Honestly great vibes. Got recommended by youtube.</p>
@@ -476,10 +502,10 @@
         <img
           src="https://coverartarchive.org/release/0396c2cf-bcde-4016-ae09-bafb24d77ed1/35155033419.jpg"
           alt="cattle mutilation cover"
-          style="width: 512px; height: 256px"
+          class="cover-width"
         />
         <span class="rating"><strong>Rating:</strong> 9.25/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=t7yggEpMUeg">Youtube</a>
         </div>
         <p class="review">
@@ -499,10 +525,10 @@
         <img
           src="https://azikazinmagicworld.com/wp-content/uploads/2025/11/RP3_2_FINAL_1440.png"
           alt="dorephin shopping center cover"
-          style="width: 360px; height: 240px"
+          class="cover-width"
         />
         <span class="rating"><strong>Rating:</strong> 8.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=gvtrG92q32Q">Youtube</a>
         </div>
         <p class="review">
@@ -523,10 +549,10 @@
         <img
           src="https://pimg.awa.io/v2/jacket/3a81a4c4cecd3413a863.w800.h800.v1770596343.webp"
           alt="kungfu shinan cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 9/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=Pvd_qnDBYOg">Youtube</a>
         </div>
         <p class="review">
@@ -551,10 +577,10 @@
         <img
           src="https://i.ytimg.com/vi/J4kjBbZmLIc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBlHWIgBefoHbDxZLYoDdNjIXZuQQ"
           alt="hoshizora cover"
-          style="width: 456px; height: 256px"
+          class="cover-width"
         />
-        <span class="rating"><strong>Rating:</strong> 9.25/10</span>
-        <div style="display: flex; gap: 15px">
+        <span class="rating"><strong>Rating:</strong> 8.25/10</span>
+        <div class="link">
           <a href="https://www.youtube.com/watch?v=J4kjBbZmLIc">Youtube</a>
         </div>
         <p class="review">
@@ -575,10 +601,10 @@
         <img
           src="https://m.media-amazon.com/images/I/61LYP6rIUIL._SL1200_.jpg"
           alt="the friend i once had"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 6.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_mB5-9IhSj81xByI1cMDB2KmiA27f0sV9o"
             >Youtube</a
@@ -610,10 +636,10 @@
         <img
           src="https://m.media-amazon.com/images/I/81icrZgRFpL._SL1500_.jpg"
           alt="citrus cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_lzI_2DZ2pkrO4RpMrJS3z9Ot7BSGnBvNc"
             >Youtube</a
@@ -639,10 +665,10 @@
         <img
           src="https://st.diskunion.net/images/jacket/1008676284.webp"
           alt="daiissyuu"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_nrvTDzhSjMNiJOyWs6OZrLgiSVhvdz0Tw"
             >Youtube</a
@@ -674,10 +700,10 @@
         <img
           src="https://static.qobuz.com/images/covers/qc/ym/xkwlk42pdymqc_600.jpg"
           alt="a mutual ground cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_mJ_LA1FJUoyRUrBvudOXNLfRfA0DRrObA"
             >Youtube</a
@@ -711,10 +737,10 @@
         <img
           src="https://e.snmc.io/i/1200/s/287376b1485c2f6d073dd6aea75b925a/10447955"
           alt="成長小說 cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_kXIhlFL-48XG8qQEi7wR7REyBDSvvYO6M"
             >Youtube</a
@@ -753,10 +779,10 @@
         <img
           src="https://f4.bcbits.com/img/a2174258977_10.jpg"
           alt="family cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 8/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_lDK75pkDcNC4Z583woYrIYSlamSn48Ofs"
             >Youtube</a
@@ -788,10 +814,10 @@
         <img
           src="https://f4.bcbits.com/img/a435879786_1x1_700.avif"
           alt="into sparks cover"
-          style="width: 256px; height: 256px"
+          class="cover"
         />
         <span class="rating"><strong>Rating:</strong> 7.5/10</span>
-        <div style="display: flex; gap: 15px">
+        <div class="link">
           <a
             href="https://www.youtube.com/playlist?list=OLAK5uy_kDC0wtE2FpWU8che5NTs06OJCivbu5VRk"
             >Youtube</a
