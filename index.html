@@ -19,6 +19,16 @@
         <!-- <a href="http://www.stanford.edu/">Stanford University</a>, welcomes you -->
         <!-- to his home page. -->
       </p>
+
+      <p>Last updated: <span id="last_updated"></span></p>
+      <script>
+        document.getElementById("last_updated").textContent = new Date(
+          document.lastModified,
+        )
+          .toISOString()
+          .split("T")[0]
+          .replace(/-/g, "/");
+      </script>
     </header>
 
     <hr />
