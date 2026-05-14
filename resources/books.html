@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Books</h1>
+      <p><a href="index.html">Back to Home Page</a></p>
+
+      <p>Last updated: <span id="last_updated"></span></p>
+      <script>
+        document.getElementById("last_updated").textContent = new Date(
+          document.lastModified,
+        )
+          .toISOString()
+          .split("T")[0]
+          .replace(/-/g, "/");
+      </script>
+    </header>
+
+    <hr />
+
+    <main>
+      <p>Books i'm interested in by subjects.</p>
+      <nav>
+        <ul>
+          <li><a href="#maths">Mathematics</a></li>
+          <li><a href="#cs">Computer Science</a></li>
+          <li><a href="#others">Others</a></li>
+        </ul>
+      </nav>
+    </main>
+
+    <h2 id="maths">Mathematics</h2>
+    <ul>
+      <li>
+        <a href="https://link.springer.com/series/0666"
+          >Undergraduate Texts in Mathematics</a
+        >
+      </li>
+      <li><a href="https://www.logicmatters.net/">Logic Matters</a></li>
+      <li><a href="https://openlogicproject.org">Open Logic Project</a></li>
+      <li>
+        <a href="https://www.cis.upenn.edu/~jean/gbooks/logic.html"
+          >Logic for Computer Science</a
+        >
+      </li>
+      <li>
+        <a href="https://richardhammack.github.io/BookOfProof/"
+          >Book of Proof</a
+        >
+      </li>
+      <li><a href="https://linear.axler.net/">Linear Algebra Done Right</a></li>
+      <li><a href="https://diestel-graph-theory.com/">Graph Theory</a></li>
+      <li><a href="https://tensorcookbook.com/">The Tensor Cookbook</a></li>
+      <li>
+        <a href="https://jvoight.github.io/quat.html">Quaternion Algebras</a>
+      </li>
+      <li>
+        <a
+          href="https://pages.jh.edu/rrynasi1/FoundationsOFMath/Literature/Textbooks/"
+          >Book List</a
+        >
+      </li>
+      <li>Clader and Ross - Beginning in Algebraic Geometry</li>
+    </ul>
+
+    <h2 id="cs">Computer Science</h2>
+    <ul>
+      <li>
+        <a
+          href="https://kolegite.com/EE_library/books_and_lectures/Програмиране/The_Art_of_Computer_Programming/"
+          >The Art of Computer Programming</a
+        >
+      </li>
+    </ul>
+
+    <h3 id="rl">Reinforcement Learning</h3>
+    <ul>
+      <li>
+        <a href="http://www.incompleteideas.net/book/the-book.html"
+          >RL: An Introduction</a
+        >
+      </li>
+      <li><a href="https://rlhfbook.com">RLHF</a></li>
+    </ul>
+
+    <h3 id="dl">Deep Learning</h3>
+    <ul>
+      <li>
+        <a href="https://www.bishopbook.com/">DL - Foundation and Concepts</a>
+      </li>
+      <li><a href="https://udlbook.github.io/udlbook/">Understanding DL</a></li>
+      <li><a href="https://d2l.ai/">Dive into DL</a></li>
+      <li>
+        <a href="http://neuralnetworksanddeeplearning.com/"
+          >Neural Networks and DL</a
+        >
+      </li>
+      <li><a href="https://www.deeplearningbook.org/">DL</a></li>
+      <li>
+        <a
+          href="https://ma-lab-berkeley.github.io/deep-representation-learning-book/"
+          >Learning Deep Representations of Data Distributions</a
+        >
+      </li>
+      <li>
+        <a href="https://geometricdeeplearning.com">Geometric Deep Learning</a>
+      </li>
+    </ul>
+
+    <h3 id="ml">Machine Learning</h3>
+    <ul>
+      <li><a href="https://mml-book.github.io">Mathematics for ML</a></li>
+      <li>
+        <a href="https://probml.github.io/pml-book/book1.html"
+          >Probabilistic ML</a
+        >
+      </li>
+    </ul>
+
+    <h3 id="systems">Systems</h3>
+    <ul>
+      <li>
+        <a href="https://softwarefoundations.cis.upenn.edu/"
+          >Software Foundations</a
+        >
+      </li>
+      <li>
+        <a href="https://os-book.com/OS10/index.html"
+          >Operating System Concepts</a
+        >
+      </li>
+      <li>
+        <a href="https://csapp.cs.cmu.edu/3e/home.html"
+          >Computer Systems: A Programmer's Perspective</a
+        >
+      </li>
+      <li>
+        <a href="https://brianmcfee.net/dstbook-site/content/intro.html"
+          >Digital Signals Theory</a
+        >
+      </li>
+    </ul>
+
+    <h3 id="linux">Linux</h3>
+    <ul>
+      <li>
+        <a href="https://man7.org/tlpi/index.html"
+          >The Linux Programming Interface</a
+        >
+      </li>
+      <li>
+        <a href="http://linuxcommand.org/tlcl.php">Linux Command Line Books</a>
+      </li>
+      <li>
+        McKusick - Design and Implementation of the FreeBSD Operating System 2nd
+      </li>
+    </ul>
+
+    <h3 id="low-level">Low-Level</h3>
+    <ul>
+      <li>
+        <a href="https://publications.gbdirect.co.uk/c_book/">The C Book</a>
+      </li>
+      <li>
+        <a href="https://craftinginterpreters.com">Crafting Interpreters</a>
+      </li>
+      <li>
+        <a href="https://www.sigbus.info/compilerbook"
+          >低レイヤを知りたい人のためのCコンパイラ作成入門</a
+        >
+      </li>
+      <li>
+        <a href="https://codehiddenlanguage.com"
+          >Code: The Hidden Language of Computer Hardware and Software</a
+        >
+      </li>
+      <li><a href="https://www.nand2tetris.org/">nand2tetris</a></li>
+    </ul>
+
+    <h3 id="prog">Programming</h3>
+    <ul>
+      <li>
+        <a href="https://www.fm2gp.com"
+          >From Mathematics to Generic Programming</a
+        >
+      </li>
+      <li>Benjamin C. Pierce - Types and Programming Languages</li>
+      <li>Norman Ramsey - Programming Languages: Build, Prove, and Compare</li>
+    </ul>
+
+    <h2 id="others">Others</h2>
+    <ul>
+      <li><a href="https://gitperf.com">High Git Performance</a></li>
+      <li>
+        <a href="https://thermodynamicsbook.com">Engineering Thermodynamics</a>
+      </li>
+    </ul>
+  </body>
+</html>
