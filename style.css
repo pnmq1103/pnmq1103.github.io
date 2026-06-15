@@ -120,8 +120,10 @@ a {
 }
 
 a:visited {
-  color: var(--link-visited);
-  border-bottom-color: var(--link-visited);
+  /* color: var(--link-visited); */
+  /* border-bottom-color: var(--link-visited); */
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
 }
 
 a:hover, a:focus, a:active {
