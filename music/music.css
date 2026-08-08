@@ -1,0 +1,38 @@
+.cover {
+  width: 256px;
+  height: 256px;
+}
+.cover-width {
+  width: auto;
+  height: 256px;
+  max-width: 1024px;
+}
+.cover-height {
+  width: 256px;
+  height: auto;
+  max-height: 1024px;
+}
+.link {
+  display: block;
+}
+.link a {
+  margin-right: 10px;
+}
+.link a:last-child {
+  margin-right: 0;
+}
+
+/*
+ * Cover images link to their original remote source.
+ * Prevent the normal text-link styling from affecting them.
+ */
+a.cover-source {
+  border-bottom: 0;
+}
+
+a.cover-source:hover,
+a.cover-source:focus,
+a.cover-source:active {
+  border-bottom: 0;
+  background-color: transparent;
+}

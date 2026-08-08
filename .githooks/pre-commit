@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# yyyy/mm/dd format
+CURRENT_DATE=$(date +"%Y/%m/%d")
+
+# find all staged .html files
+# --diff-filter=ACM: added, copied, modified
+STAGED_FILE=$(git diff --staged --name-only --diff-filter=ACM | grep '\.html$')
+
+if [ -z "$STAGED_FILE" ]; then
+  exit 0
+fi
+
+for FILE in $STAGED_FILE; do
+  # for cross-platform compatability
+  sed "s|<span id=\"last_updated\">.*</span>|<span id=\"last_updated\">$CURRENT_DATE</span>|g" "$FILE" >"${FILE}.tmp"
+  mv "${FILE}.tmp" "$FILE"
+  git add "$FILE"
+done
+
+echo "Updated modification date for staged .html files"
+exit 0
