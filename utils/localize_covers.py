@@ -67,13 +67,15 @@ def download_image(url: str) -> tuple[bytes, str]:
 
 def main() -> int:
     if len(sys.argv) != 2:
-        print("Usage: python3 utils/localize_covers.py music/2026.html")
+        print("Usage: python3 utils/localize_covers.py personal/media/music/2026.html")
         return 1
 
     # Assuming:
     # root/
-    # ├── music/
-    # │   └── 2026.html
+    # ├── personal/
+    # │   └── media/
+    # │       └── music/
+    # │           └── 2026.html
     # └── utils/
     #     └── localize_covers.py
     # Therefore parent.parent is the repository root.
@@ -82,9 +84,9 @@ def main() -> int:
     input_path = Path(sys.argv[1])
 
     # Support both:
-    #   music/2026.html
+    #   personal/media/music/2026.html
     # and:
-    #   /absolute/path/to/music/2026.html
+    #   /absolute/path/to/personal/media/music/2026.html
     if input_path.is_absolute():
         html_file = input_path.resolve()
     else:
